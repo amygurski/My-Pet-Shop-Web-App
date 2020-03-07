@@ -6,6 +6,7 @@ import Home from "./views/Home";
 import Pets from "./views/Pets";
 import Favorites from "./views/Favorites";
 import store from "./store/store";
+import Form from "./views/Form";
 
 Vue.config.productionTip = false;
 Vue.use(VueRouter);
@@ -19,9 +20,13 @@ const routes = [
     path: "/pets",
     component: Pets
   },
-  { 
-    path: "/favorites", 
-    component: Favorites 
+  {
+    path: "/favorites",
+    component: Favorites
+  },
+  {
+    path: "/form",
+    component: Form
   }
 ];
 
