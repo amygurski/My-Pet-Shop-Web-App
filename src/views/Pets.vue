@@ -12,7 +12,6 @@
 import axios from "axios";
 import { Dogs } from "../data/dogs";
 import Dog from "../components/Dog.vue";
-import { mapActions } from "vuex";
 axios.defaults.baseURL = "https://dog.ceo/api";
 export default {
   methods: {
